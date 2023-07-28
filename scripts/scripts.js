@@ -1,4 +1,4 @@
-/****************** YOUR NAME: 
+/****************** Amadou Diallo: 
 
 The instructions describe the missing logic that is needed; you will translate these into JavaScript in the places indicated.
 
@@ -57,11 +57,11 @@ let modelButton = document.getElementById("model-button");
 function changeModel(){
     modelText = document.getElementById("model-text");
     if (modelName =="XYZ"){
-        modelName =="CPRG";
+        modelName ="CPRG";
         modelText.innerHTML = "Model CPRG";
     }
     else if (modelName =="CPRG"){
-        modelName =="XYZ";
+        modelName ="XYZ";
         modelText.innerHTML = "Model XYZ"
     }
     recalculate()
