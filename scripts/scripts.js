@@ -11,8 +11,8 @@ You are encouraged to use the provided naming convention for ease of review.
 
 // INSERT YOUR CODE HERE
 
-let modelName = "XYZ";
-let duration = 0; 
+var modelName = "XYZ";
+var duration = 0; 
 
 
 
@@ -30,6 +30,7 @@ let duration = 0;
 
 function recalculate(){
     let costLabel = document.getElementById("calculated-cost");
+    let totalCost = 0;
     if (modelName =="XYZ"){
         totalCost = duration*100;
     }else if (modelName =="CPRG"){
