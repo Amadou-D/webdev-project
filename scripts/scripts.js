@@ -95,8 +95,8 @@ let durationButton = document.getElementById("duration-button");
 function changeDuration(){
     let durationText = document.getElementById("duration-text");
     let newDuration = window.prompt("Enter the new duration in days :");
-    duration = parseFloat(newDuration);
-    durationText.innerHTML=duration;
+    duration = newDuration;
+    durationText.innerHTML=newDuration;
     recalculate();
 
 }
